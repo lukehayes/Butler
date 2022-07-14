@@ -10,6 +10,12 @@ module Butler
       end_line()
     end
 
+      def title(name)
+      lines(80, "=")
+      puts name
+      lines(80, "=")
+    end
+
     private
     
     def end_line()
