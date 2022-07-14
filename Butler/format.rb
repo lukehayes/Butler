@@ -5,8 +5,8 @@ module Butler
       puts "Format Class"
     end
 
-    def lines(amount)
-      amount.times { print "-" }
+    def lines(amount, style = "-")
+      amount.times { print style }
       end_line()
     end
 
