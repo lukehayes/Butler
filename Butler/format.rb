@@ -1,9 +1,6 @@
 module Butler
   # Pretty printing helpers to the CLI
   class Format
-    def initialize
-      puts "Format Class"
-    end
 
     def lines(amount, style = "-")
       amount.times { print style }
